@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD5F8C321B665DA700F636DD /* ToDoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = AD5F8C311B665DA700F636DD /* ToDoItem.m */; };
 		ADA47E5A1B58DD5000092F18 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA47E591B58DD5000092F18 /* main.m */; };
 		ADA47E5D1B58DD5000092F18 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA47E5C1B58DD5000092F18 /* AppDelegate.m */; };
 		ADA47E601B58DD5000092F18 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA47E5F1B58DD5000092F18 /* ViewController.m */; };
@@ -29,6 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AD5F8C301B665DA700F636DD /* ToDoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToDoItem.h; sourceTree = "<group>"; };
+		AD5F8C311B665DA700F636DD /* ToDoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToDoItem.m; sourceTree = "<group>"; };
 		ADA47E541B58DD5000092F18 /* Code Collect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Code Collect.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADA47E581B58DD5000092F18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ADA47E591B58DD5000092F18 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -90,6 +93,8 @@
 				ADA47E5B1B58DD5000092F18 /* AppDelegate.h */,
 				ADA47E5C1B58DD5000092F18 /* AppDelegate.m */,
 				ADA47E5E1B58DD5000092F18 /* ViewController.h */,
+				AD5F8C301B665DA700F636DD /* ToDoItem.h */,
+				AD5F8C311B665DA700F636DD /* ToDoItem.m */,
 				ADA47E5F1B58DD5000092F18 /* ViewController.m */,
 				ADA47E611B58DD5000092F18 /* Main.storyboard */,
 				ADA47E801B58E62D00092F18 /* CodeListTableViewController.h */,
@@ -229,6 +234,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD5F8C321B665DA700F636DD /* ToDoItem.m in Sources */,
 				ADA47E601B58DD5000092F18 /* ViewController.m in Sources */,
 				ADA47E5D1B58DD5000092F18 /* AppDelegate.m in Sources */,
 				ADA47E821B58E62D00092F18 /* CodeListTableViewController.m in Sources */,
@@ -364,6 +370,7 @@
 				INFOPLIST_FILE = "Code Collect/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -374,6 +381,7 @@
 				INFOPLIST_FILE = "Code Collect/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
@@ -430,6 +438,7 @@
 				ADA47E791B58DD5000092F18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ADA47E7A1B58DD5000092F18 /* Build configuration list for PBXNativeTarget "Code CollectTests" */ = {
 			isa = XCConfigurationList;
@@ -438,6 +447,7 @@
 				ADA47E7C1B58DD5000092F18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
