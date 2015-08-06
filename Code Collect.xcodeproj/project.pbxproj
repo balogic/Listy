@@ -11,7 +11,6 @@
 		ADA47E5A1B58DD5000092F18 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA47E591B58DD5000092F18 /* main.m */; };
 		ADA47E5D1B58DD5000092F18 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA47E5C1B58DD5000092F18 /* AppDelegate.m */; };
 		ADA47E601B58DD5000092F18 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA47E5F1B58DD5000092F18 /* ViewController.m */; };
-		ADA47E631B58DD5000092F18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADA47E611B58DD5000092F18 /* Main.storyboard */; };
 		ADA47E651B58DD5000092F18 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADA47E641B58DD5000092F18 /* Images.xcassets */; };
 		ADA47E681B58DD5000092F18 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADA47E661B58DD5000092F18 /* LaunchScreen.xib */; };
 		ADA47E741B58DD5000092F18 /* Code_CollectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA47E731B58DD5000092F18 /* Code_CollectTests.m */; };
@@ -39,7 +38,6 @@
 		ADA47E5C1B58DD5000092F18 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		ADA47E5E1B58DD5000092F18 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		ADA47E5F1B58DD5000092F18 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		ADA47E621B58DD5000092F18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ADA47E641B58DD5000092F18 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		ADA47E671B58DD5000092F18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		ADA47E6D1B58DD5000092F18 /* Code CollectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Code CollectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -96,7 +94,6 @@
 				AD5F8C301B665DA700F636DD /* ToDoItem.h */,
 				AD5F8C311B665DA700F636DD /* ToDoItem.m */,
 				ADA47E5F1B58DD5000092F18 /* ViewController.m */,
-				ADA47E611B58DD5000092F18 /* Main.storyboard */,
 				ADA47E801B58E62D00092F18 /* CodeListTableViewController.h */,
 				ADA47E811B58E62D00092F18 /* CodeListTableViewController.m */,
 				ADA47E7D1B58E4EE00092F18 /* AddToDoItemViewController.h */,
@@ -214,7 +211,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADA47E631B58DD5000092F18 /* Main.storyboard in Resources */,
 				ADA47E681B58DD5000092F18 /* LaunchScreen.xib in Resources */,
 				ADA47E651B58DD5000092F18 /* Images.xcassets in Resources */,
 			);
@@ -262,14 +258,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		ADA47E611B58DD5000092F18 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				ADA47E621B58DD5000092F18 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		ADA47E661B58DD5000092F18 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
